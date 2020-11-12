@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Syne Mono', monospace;
+  /* font-family: 'Indie Flower', cursive; */
+  line-height: 1.5em;
+  background: #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #fff;
+  background: #f6ba74;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.current {
+  background: #121f28;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+#navbar {
+  background: #f6ba74;
+  overflow: auto;
+  /* opacity: 0.8; */
+}
+
+#navbar h1 {
+  padding: 20px 0;
+  margin: 0;
+  float: left;
+}
+
+#navbar h1 a:hover span {
+  text-decoration: underline;
+}
+
+#navbar h1 a:hover i {
+  border-radius: 50%;
+  padding: 10px;
+  background: #121f28;
+  color: #fff;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  padding: 30px;
+}
+
+#navbar li a:hover {
+  background: #121f28;
+  color: #fff;
+}
+
+#showcase {
+  background: url('./img/showcase1.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding: 50px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+}
+
+.l-heading {
+  font-size: 50px;
+  color: #f6ba74;
+}
+
+#showcase .btn {
+  font-size: 30px;
+}
+
+#showcase h1 {
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+#showcase .lead {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  opacity: 0.7;
+}
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+#restaurant {
+  height: 900px;
+  overflow: hidden;
+}
+
+#restaurant .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#restaurant .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#restaurant .info-left img {
+  width: 70%;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  min-height: 50%;
+}
+
+#restaurant .info-right img {
+  width: 70%;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  min-height: 50%;
+}
+
+#restaurant .row {
+  padding: 30px;
+  min-height: 46%;
+}
+
+#restaurant .about-content {
+  padding: 20px 50px;
+  text-align: justify;
+}
+
+#restaurant h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+#restaurant h2 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+#restaurant .row {
+  background: #f6ba74;
+  color: #000;
+}
+
+#restaurant .second-row {
+  background: #fff;
+  color: #000;
+}
+
+#restaurant .second-row h1,
+#restaurant .second-row h2 {
+  color: #f6ba74;
+}
+
+#restaurant img {
+  opacity: 0.9;
+}
+
+#restaurant img:hover {
+  opacity: 1;
+  height: 305px;
+}
+
+#restaurant .l-heading {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  min-height: 8%;
+  margin-bottom: 0px;
+}
+
+#menu {
+  height: 750px;
+  overflow: hidden;
+  background: #f6ba74;
+}
+
+#menu .box {
+  margin: 10px auto;
+  padding: 10px;
+  float: left;
+  width: 33%;
+  color: #fff;
+  min-height: 100%;
+  text-align: center;
+}
+
+#menu .item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #333;
+  opacity: 0.9;
+  min-height: 100%;
+  margin: 0px;
+}
+
+#menu img {
+  width: 100%;
+  max-height: 200px;
+}
+
+#menu .item:hover {
+  background: #fff;
+  color: #333;
+}
+
+#menu h1 {
+  font-size: 35px;
+  margin: 20px auto;
+}
+
+#menu .l-heading {
+  padding: 30px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 0px;
+  min-height: 8%;
+}
+
+#menu li {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+#reservation {
+  height: 1400px;
+}
+
+#reservation .timetable {
+  height: 40%;
+  background: url('./img/reservation.jpg') no-repeat center center/cover;
+}
+
+#reservation .l-heading {
+  text-align: center;
+  padding: 100px;
+  color: #000;
+}
+
+#reservation h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#reservation li {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#reservation .timings {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+#reservation .lunch {
+  float: left;
+  width: 50%;
+}
+
+#reservation .dinner {
+  float: right;
+  width: 50%;
+}
+
+#reservation .reserve {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+#reservation .details {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+#reservation label {
+  display: block;
+}
+
+.reservation-form {
+  background: #fafafa;
+  color: #333;
+  padding: 50px;
+  height: 60%;
+}
+
+.reservation-form h1 {
+  padding: 20px;
+}
+
+.reservation-form input {
+  padding: 15px;
+  width: 100%;
+  margin: 10px auto;
+  color: #333;
+}
+
+.reservation-form label {
+  margin: 10px auto;
+}
+
+.reservation-form #date,
+.reservation-form #timetables {
+  padding: 12.5px 15px;
+}
+
+.reservation-form textarea {
+  width: 100%;
+}
+
+.reservation-form .btn {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+.reservation-form .btn:hover {
+  background: #f6ba74;
+  color: #333;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+  border: 1px solid #ddd;
+}
+
+.reservation-form input:focus {
+  outline: none;
+  border-color: #f6ba74;
+}
+
+.reservation-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.reservation-form textarea:focus {
+  outline: none;
+  border-color: #f6ba74;
+}
+
+#location {
+  height: 200px;
+  background: #333;
+  color: #f4f4f4;
+}
+
+#location .box {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#location .box i {
+  margin-bottom: 10px;
+}

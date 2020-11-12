@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #f4d03f;
+}
+
+.current {
+  background: #444;
+  color: #f4d03f;
+}
+
+.clr {
+  clear: both;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #f4d03f;
+  color: #333;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+#navbar {
+  background: #333;
+  overflow: auto;
+}
+
+#navbar h1 {
+  padding: 20px 0;
+  margin: 0;
+  float: left;
+}
+
+#navbar h1 a:hover {
+  color: #f4d03f;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  padding: 20px;
+}
+
+#navbar li a:hover {
+  background: #444;
+  color: #f4d03f;
+}
+
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding: 50px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color: #fff;
+  margin-top: 180px;
+}
+
+.l-heading {
+  font-size: 50px;
+  color: #f4f4f4;
+}
+
+#showcase .btn {
+  font-size: 30px;
+}
+
+#showcase .lead {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-size: 18px;
+  color: #f4f4f4;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-left {
+  background: url('../img/info.jpg') no-repeat center center/cover;
+  float: left;
+  width: 40%;
+  min-height: 100%;
+}
+
+#home-info .info-right {
+  float: right;
+  width: 60%;
+  padding: 40px;
+  text-align: center;
+  min-height: 100%;
+  color: #f4f4f4;
+}
+
+#home-info h1 {
+  margin: 30px 0;
+  font-size: 40px;
+  color: #f4d03f;
+}
+
+#home-info p {
+  font-size: 20px;
+}
+
+#features .box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+#home-plans {
+  background: url('../img/home-plans.jpg') no-repeat center center/cover;
+  height: 400px;
+  padding: 50px;
+  text-align: left;
+}
+
+.plans-content {
+  margin-top: 100px;
+}
+
+.plans-content h1 {
+  margin-bottom: 30px;
+}
+
+#home-plans .btn {
+  background: #333;
+  color: #f4d03f;
+  padding: 10px 20px;
+}
+
+#home-plans .btn:hover {
+  background: #f4d03f;
+  color: #333;
+}
+
+#home-plans p {
+  color: #f4f4f4;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+#newsletter input {
+  border: 1px #444 solid;
+}
+
+#newsletter input:focus {
+  outline: none;
+  border: 1px #f4d03f solid;
+}
+
+#newsletter #email {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 0px;
+  padding: 15px 50px 10px 10px;
+  background: #f4f4f4;
+}
+
+#newsletter #submit {
+  background: #f4d03f;
+  color: #333;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  margin-left: 0px;
+  padding: 15px 50px 10px 50px;
+}
+
+#newsletter #submit:hover {
+  cursor: pointer;
+}
+
+#newsletter-form {
+  margin: 50px 0px;
+}
+
+#newsletter h1 {
+  margin: 50px 0px;
+  font-size: 40px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  margin: auto;
+}
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+/* About Section */
+
+#about-section {
+  background: #f4f4f4;
+  color: #333;
+  height: 600px;
+  overflow: hidden;
+}
+
+#about-section .about-content {
+  text-align: center;
+  max-width: 1000px;
+  padding: 20px 10px;
+}
+
+#about-section img {
+  display: block;
+  margin: auto;
+  padding: 30px 0;
+  border-radius: 50%;
+  height: 300px;
+}
+
+#about-section h1 {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#more-info {
+  height: 600px;
+  overflow: hidden;
+}
+
+#more-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#more-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#more-info .info-left img {
+  width: 70%;
+  height: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  min-height: 50%;
+}
+
+#more-info .info-right img {
+  width: 70%;
+  height: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  min-height: 50%;
+}
+
+#more-info .row {
+  padding: 30px;
+  min-height: 50%;
+}
+
+#more-info .about-content {
+  padding: 20px 50px;
+  text-align: justify;
+}
+
+#more-info h1 {
+  color: #f4d03f;
+  font-size: 40px;
+}
+
+#more-info .row:hover {
+  background: #f4d03f;
+  color: #333;
+}
+
+#more-info .row:hover h1 {
+  color: #f4f4f4;
+}
+
+#trainers {
+  height: 700px;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+#trainers .box {
+  float: left;
+  width: 25%;
+  margin: auto;
+  height: 75%;
+  padding: 0px 0px 30px 0px;
+  background: #f4f4f4;
+}
+
+#trainers .trainee {
+  max-width: 90%;
+  margin: auto;
+  min-height: 100%;
+  border: 1px #f4d03f solid;
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+#trainers .trainee:hover {
+  border: 1px #f4d03f solid;
+  background-color: #f4d03f;
+  color: #333;
+}
+
+#trainers .trainee:hover h3 {
+  color: #f4f4f4;
+}
+
+#trainers h3,
+#trainers p {
+  text-align: center;
+  margin: auto;
+}
+
+#trainers h3 {
+  color: #f4d03f;
+  font-size: 25px;
+}
+
+#trainers p {
+  padding: 20px;
+}
+
+#trainers img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 80%;
+}
+
+#trainers .l-heading {
+  text-align: center;
+  color: #333;
+  padding: 50px;
+}
+
+#testimonials {
+  height: 700px;
+  background: url('../img/testimonials.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+  color: #f4f4f4;
+}
+
+#testimonials .testimonial-left img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials .testimonial-right img {
+  width: 100px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+#testimonials h2 {
+  color: #333;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials p {
+  font-size: 20px;
+}
+
+#testimonials .testimonial-left,
+#testimonials .testimonial-right {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+#testimonials .testimonial-left:hover,
+#testimonials .testimonial-right:hover {
+  background: #f4d03f;
+  color: #333;
+  opacity: 0.8;
+}
+
+#plans-showcase {
+  background: url('../img/plans1.jpg') no-repeat center center/cover;
+  height: 300px;
+  padding: 100px;
+}
+
+#plans-showcase h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#plans-section {
+  background: url('../img/plans-section.jpg') no-repeat center center/cover;
+  height: 700px;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  line-height: 2em;
+}
+
+#plans-section .box {
+  float: left;
+  width: 25%;
+  margin: auto;
+  height: 75%;
+  padding: 0px 0px 30px 0px;
+}
+
+#plans-section .item-not {
+  color: #f4d03f;
+}
+
+#plans-section .plan {
+  max-width: 90%;
+  margin: auto;
+  min-height: 100%;
+  border: 1px #f4f4f4 solid;
+  background-color: #333;
+  color: #f4f4f4;
+  opacity: 0.9;
+}
+
+#plans-section .plan:hover {
+  border: 1px #f4d03f solid;
+  background-color: #f4d03f;
+  color: #333;
+}
+
+#plans-section .plan:hover a {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+#plans-section .plan:hover .item-not {
+  color: #f4f4f4;
+}
+
+#plans-section p {
+  padding: 20px;
+}
+
+#plans-section img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 80%;
+}
+
+#plans-section .l-heading {
+  text-align: center;
+  color: #333;
+  padding: 50px;
+}
+
+#plans-section ul {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#plans-section .plan h1 {
+  padding: 40px 0px 0px 0px;
+  font-size: 60px;
+}
+
+#plans-section .plan h3 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+#plans-section a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f4d03f;
+  color: #333;
+}
+
+#contact-form {
+  margin-top: 20px 0px;
+  padding: 30px;
+}
+
+#contact-form .l-heading {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 100px;
+}
+
+#contact-form .btn {
+  display: block;
+  border-style: none;
+  background: #333;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+#contact-form .btn:hover {
+  background: #f4d03f;
+  color: #f4f4f4;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f4d03f;
+}
+
+#contact-info {
+  height: 200px;
+  background: #333;
+  color: #f4f4f4;
+}
+
+#contact-info .box {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contact-info .box i {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,315 @@
+/* Reset CSS  */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* utilities */
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+  height: 1000px;
+  background: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  overflow: auto;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Padding */
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.highlight {
+  padding: 5px 10px;
+  background: #2e7d32;
+  color: #f4f4f4;
+  margin: 5px auto;
+}
+
+.l-heading {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.lead {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+}
+
+/* navbar */
+
+#navbar {
+  background: #2e7d32;
+  color: #fff;
+  overflow: auto;
+  top: 0;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar li a:hover,
+#navbar li a.current {
+  background: #fff;
+  color: #2e7d32;
+}
+
+#showcase {
+  height: 600px;
+  background: url('img/showcase.jpg') no-repeat center center/cover;
+  padding-top: 150px;
+  color: #f4f4f4;
+  overflow: hidden;
+}
+
+#showcase .show-content {
+  text-align: center;
+}
+
+#showcase a {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+#showcase a:hover {
+  background: #f4f4f4;
+  color: #2e7d32;
+}
+
+#about img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#about .info-left {
+  float: left;
+  width: 30%;
+}
+
+#about .info-right {
+  float: right;
+  width: 66%;
+}
+
+#about .info-left img:hover {
+  width: 105%;
+}
+
+#about {
+  height: 500px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#about h1 {
+  margin: 20px;
+  color: #333;
+}
+
+#about p {
+  color: #333;
+}
+
+#about p:hover {
+  color: #000;
+}
+
+#motives {
+  height: 400px;
+  background: #2e7d32;
+  overflow: hidden;
+  color: #f4f4f4;
+}
+
+.box {
+  float: left;
+  width: 33%;
+  padding: 30px;
+  background: #2e7d32;
+  text-align: center;
+}
+
+.box i {
+  padding: 20px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.box i:hover {
+  background: #fff;
+  color: #2e7d32;
+}
+
+.box p {
+  padding: 0px 50px;
+}
+
+#donate {
+  height: 600px;
+  background: url('img/donate.jpeg') no-repeat center center/cover;
+  padding-top: 150px;
+  color: #f4f4f4;
+  overflow: hidden;
+}
+
+#donate .donate-content {
+  text-align: center;
+}
+
+#donate a {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+#donate a:hover {
+  background: #f4f4f4;
+  color: #2e7d32;
+}
+
+#donate h1 {
+  margin-bottom: 20px;
+}
+
+#newsletter {
+  text-align: center;
+  color: #333;
+  background: #2e7d32;
+  margin-bottom: 30px;
+}
+
+#newsletter h1 {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+#newsletter #email {
+  padding: 10px;
+  width: 50%;
+  margin: 40px auto;
+  border: 1px #ddd solid;
+}
+
+#newsletter #email:focus {
+  outline: none;
+  border-color: #2e7d32;
+}
+
+#newsletter .btn {
+  background: #333;
+  color: #fff;
+}
+
+#contact .form-group {
+  margin-bottom: 20px;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact textarea {
+  height: 100px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#contact {
+  padding: 30px;
+  color: #333;
+}
+
+#contact h1 {
+  padding-left: 0px;
+  margin: 0px;
+  color: #333;
+}
+
+#contact .btn {
+  background: #2e7d32;
+  color: #fff;
+  font-size: 20px;
+}
+
+#main-footer {
+  text-align: center;
+  background: #1b5e20;
+  color: #fff;
+  padding: 20px;
+}
+
+#main-footer .box {
+  background: #1b5e20;
+  color: #fff;
+}

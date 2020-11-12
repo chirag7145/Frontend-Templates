@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Syne+Mono&display=swap" rel="stylesheet">
+    <title>Italiana Appetite | Welcome </title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">
+                    <a href="#">~ <i class="fas fa-utensils fa-0.5x"></i> It<span>ali</span>an Res<span>taur</span>ant ~</a>
+                </h1>
+                <ul>
+                    <li><a class="current" href="#">Welcome</a></li>
+                    <li><a href="#restaurant">Restaurant</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1 class='l-heading'><span class="text-primary"> Welcome! </span></h1>
+                    <p class="lead"><span class="text-dark">“One cannot think well, love well, sleep well,</span> <span class="text-dark">if one has not dined well.”</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="restaurant">
+        <h1 class='l-heading'>~ Restaurant ~</h1>
+        <div class="row first-row">
+            <div class="info-left">
+                <img src="./img/info-left.jpeg" alt="Image">
+            </div>
+            <div class="about-content container info-right">
+                <h1>Location</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum incidunt officia nobis, culpa aut quis mollitia, possimus iusto eum eius harum itaque sapiente? Est dolorum cupiditate mollitia eum quibusdam adipisci natus odit facilis voluptatibus?</p>
+                <h2>A Unique Style</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A suscipit eum rem rerum recusandae, officia pariatur ut voluptates itaque dignissimos!</p>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <div class="row second-row">
+            <div class="about-content container info-left">
+                <h1>Cuisine</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum incidunt officia nobis, culpa aut quis mollitia, possimus iusto eum eius harum itaque sapiente? Est dolorum cupiditate mollitia eum quibusdam adipisci natus odit facilis voluptatibus?</p>
+                <h2>A Unique Style</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae nisi ex voluptate sapiente natus laborum! Dolore aliquid illum aliquam.</p>
+            </div>
+            <div class="info-right">
+                <img src="./img/info-right.jpeg" alt="Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h1 class='l-heading'>~ Menu ~</h1>
+        <div class="box">
+            <img src="./img/meat-menu.jpg" alt="Meat Menu">
+            <div class="item">
+                <h1>~ Meat Menu ~</h1>
+                <ul>
+                    <li>Bocconcini di carne in sfoglia</li>
+                    <li>Bruschette con maiale al curry</li>
+                    <li>Uova al prosciutto</li>
+                    <li>Vitello tonnato</li>
+                    <li>Fesa di tacchino marinata con olive</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img/fish-menu.jpeg" alt="Fish Menu">
+            <div class="item">
+                <h1>~ Fish Menu ~</h1>
+                <ul>
+                    <li>Carpaccio di polpo</li>
+                    <li>Cozze al verde</li>
+                    <li>Cocktail di gamberi</li>
+                    <li>Risotto alla crema di scampi</li>
+                    <li>Ravioli di pesce con crema di scampi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img/menu-vegetarian.jpg" alt="Vegetarian Menu">
+            <div class="item">
+                <h1>~ Vegetarian Menu ~</h1>
+                <ul>
+                    <li>Parmigiana di melanzane</li>
+                    <li>Strudel con ricotta e spinaci</li>
+                    <li>Polpette di spinaci e ricotta</li>
+                    <li>Frittata di patate al forno</li>
+                    <li>Spaghetti con le polpettine vegetariane</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <div class="timetable">
+            <h1 class='l-heading'>~ Reservation ~</h1>
+            <h2>Timetables</h2>
+            <div class="timings">
+                <ul class="lunch">
+                    <li>Lunch</li>
+                    <li>12:00 - 15:00</li>
+                </ul>
+                <ul class="dinner">
+                    <li>Dinner</li>
+                    <li>19:30 - 23:30</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <div class="reservation-form">
+            <div class="container">
+                <div class="reserve">
+                    <h1>~ Reserve ~</h1>
+                    <form action="">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                        <label for="timetables">Timetables</label>
+                        <input type="time" name="timetables" id="timetables">
+                        <label for="guest-number">Number of Guests</label>
+                        <input type="number" name="number" id="number">
+                    </form>
+                </div>
+                <div class="details">
+                    <h1>~ Details ~</h1>
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone">
+                    </form>
+                </div>
+                <div class="clr"></div>
+                <label for="message">Further Requests</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <a href="#" class="btn">Reserve</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <section id="location">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>NYC, USA</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone Number</h3>
+                <p>(+646) 575734</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email</h3>
+                <p>contact@resto.com</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+        <p>Italiana Restaurant &copy; 2020, All Rights Reserved</p>
+    </footer>
+
+    <script
+    src="https://kit.fontawesome.com/6c1f1b771a.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
